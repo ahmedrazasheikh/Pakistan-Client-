@@ -75,7 +75,7 @@ const ahmedFunc = ()=>{
 
 <View       style={[styles.secondBalls1, {display : changeHandler}]}     >
 
-<TouchableOpacity     >
+<TouchableOpacity            activeOpacity={1}   >
       <View   
     style={styles.ball2} >
 <Text     style={styles.plusIcon2}         >2</Text>
@@ -88,14 +88,14 @@ const ahmedFunc = ()=>{
 <View    style={[styles.secondBalls2, {display : changeHandler}]}      >
 
 
-<TouchableOpacity>
+<TouchableOpacity   activeOpacity={1}     >
       <View   
     style={styles.ball23} >
 <Text     style={styles.plusIcon2}         >1</Text>
 <Text     style={styles.plusIcon2}         >Branch </Text>
         </View>
         </TouchableOpacity>
-<TouchableOpacity      >
+<TouchableOpacity     activeOpacity={1}       >
       <View   
     style={styles.ball23} >
 <Text     style={styles.plusIcon2}         >3</Text>
@@ -109,7 +109,8 @@ const ahmedFunc = ()=>{
 
 
 
-<TouchableOpacity       onPress={ahmedFunc}      >
+<TouchableOpacity            activeOpacity={1}
+    onPress={ahmedFunc}      >
       
 <View   
     style={styles.ball} >
